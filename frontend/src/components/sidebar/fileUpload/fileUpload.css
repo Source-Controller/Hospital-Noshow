@@ -1,0 +1,69 @@
+.fuf-main {
+  position: relative;
+  margin:  5px auto;
+  width: 100%;
+  
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.file-upload {
+  text-align: center;
+  padding: 2px 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.file-upload div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  margin: 2px;
+  max-width: 60%;
+}
+
+.file-upload p {
+  font-size: 0.87rem;
+  margin: 2px 0px;
+}
+.file-upload input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-icon {
+  width: 30%;
+  height: 20%;
+}
+
+.parent button {
+  margin: 0px auto;
+  width: 60%;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  font: normal normal 900 small-caps 25px/30px inherit;  
+  color: wheat;
+  background-color: #eeeeee66;
+  cursor: pointer;
+
+}
+
+.parent button:hover {
+  color: white;
+  background-color:rgba(182, 169, 152,0.5);
+}
+

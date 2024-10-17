@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-attachment: fixed;
+  color: rgba(255,255,255,.85);
+
+}
+
+/* main part */
+
+.main-container {
+  width: 100%;  
+  top: 62px;
+  position: relative;
+  display: flex;
+  z-index: 0;
+  
+}
+
+.right-sidebar {
+  background-color: #000000dd;
+}
+
+.sidebar-wrapper {
+  margin: 5px 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  min-height: calc(100vh - 160px);
+  background-color: #00000055;
+  overflow-y: scroll;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sidebar-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.landing-main {
+  margin: 5px;
+  width: 79%;
+  height: calc(100vh - 160px);
+
+  background-color: #00000055;
+  border-radius: 10px;
+  position: fixed;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: scroll;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.landing-main::-webkit-scrollbar {
+  display: none;
+}
+
+.landing-main2 {
+  margin: 0.2% 0.5%;
+  width: 99%;
+  height: calc(100vh - 160px);
+
+  background-color: #00000055;
+  border-radius: 10px;
+  position: fixed;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: scroll;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.landing-main2::-webkit-scrollbar {
+  display: none;
+}
+
+.weather-main {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  align-items: center;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+
+}
+
+.metrics > span {
+  font: normal normal 400 oblique 40px/50px 'elephant';
+  margin-top: 20px;
+}
+
+.metrics1,.metrics2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfMetrics {
+  margin: 10px 20px;
+  padding: 5px 100px;
+  font-size: 20px;
+  color: white;
+  width: fit-content;
+  height: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;  
+
+}
+
+.nodata-div {
+  margin: auto;
+  font-size: 30px;
+}
+
+.paEngageMetrics > span, .perfMetrics > span {
+  margin: 10px 0px;
+  color: purple;
+}
+
+.patients-main {
+  position: relative;
+  top: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidebar-wrapper,.landing-main, #logo-header {
+    background-color: #000;
+  }
+}
+
+/* sidebar part-2 */
+
+.total-status {
+  width: 90%;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.total-status fieldset {
+  width: 90%;
+  padding: 0 5%;
+}
+.total-status div {
+
+  padding: 0.2% 7%;
+}
+
+
+.total-status-title {
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.total-status-content {
+  font-size: 1.5rem;
+  padding:0;
+  margin: 0;
+  text-align: center;
+  color: lightcoral;
+
+}

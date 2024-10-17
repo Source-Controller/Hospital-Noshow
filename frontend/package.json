@@ -1,0 +1,68 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@canvasjs/react-charts": "^1.0.0",
+    "@daypilot/daypilot-lite-react": "^3.20.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fullcalendar/bootstrap": "^6.1.10",
+    "@fullcalendar/core": "^6.1.10",
+    "@fullcalendar/daygrid": "^6.1.10",
+    "@fullcalendar/interaction": "^6.1.10",
+    "@fullcalendar/react": "^6.1.10",
+    "@fullcalendar/resource-timegrid": "^6.1.10",
+    "@fullcalendar/timegrid": "^6.1.10",
+    "@fusionauth/react-sdk": "^1.0.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.1",
+    "devextreme": "^23.2.4",
+    "devextreme-react": "^23.2.4",
+    "fullcalendar": "^6.1.10",
+    "jquery": "^3.7.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-feedback-modal": "^1.0.2",
+    "react-icons": "^5.0.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
+    "sass": "^1.70.0",
+    "scss": "^0.2.4",
+    "styled-components": "^6.1.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

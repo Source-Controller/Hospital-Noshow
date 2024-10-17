@@ -1,0 +1,178 @@
+/* header.scss */
+
+#logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 100vw;
+  background-color: #00000055;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+  .logo-div {
+    width: 20%;
+    height: 100%;
+    padding: 5px 10px;
+    background-image: url('../../../assets//images/logo.png');
+    background-size: cover;
+    
+  }
+
+  .header-main {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .header-select,.header-noselect {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    width: 70%;
+
+    .dropdownMenu {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // font-size: 30px;
+
+      label {
+        margin: 5px;
+        font-size: 25px;
+      }
+      select {
+        padding: 4px 7px;
+        font-size: 20px;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .logo-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    width: 30%;
+  }
+  a {
+    font-size: 25px;
+    color: white;
+    
+
+    span,
+    svg {
+      padding: 5px;
+    }
+  }
+
+  a:hover {
+    color: limegreen;
+  }
+}
+
+.header-email {
+  margin-right: 10px;
+}
+
+.button-lg {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  // width: 100px;
+}
+
+#user_avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.header-avatar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 25px;
+
+  span,
+  svg {
+    padding: 5px;
+  }
+}
+
+.header-avatar:hover {
+  color: limegreen;
+}
+
+#userAvatarAlt {
+  margin-right: 5px;
+  // height: 2.3rem;
+}
+
+.profile-div {
+  z-index: 999;
+  position: fixed;
+  top: 60px;
+  width: 150px;
+  height: 150px;
+  right: 3px;
+}
+// profile part-----------
+
+.profile {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  background-color: cadetblue;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  div {
+    margin: 5px;
+    height: 10px;
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+  h4 {
+    padding: 5px;
+    margin: 5px;
+  }
+  span {
+    font-size: 12px;
+  }
+
+  #userAvatarAlt2 {
+    margin-top: 10px;
+    height: 4rem;
+  }
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-out {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-weight: 800;  
+    font-size: 20px;  
+  }
+}

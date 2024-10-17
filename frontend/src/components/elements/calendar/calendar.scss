@@ -1,0 +1,58 @@
+.event-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-calendar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .btn-ok {
+    background-color: lightgreen;    
+    width: 100%;
+    padding: 1px 10px;
+    border: none;
+  }
+
+  .btn-ok:hover {
+    background-color:darkgreen ;
+    color: wheat;
+
+  }
+  .btn-no {
+    background-color: lightcoral;
+    width: 100%;
+    padding: 1px 10px;
+    border: none;
+
+  }
+  .btn-no:hover {
+    background-color: red;
+    color: white;
+  }
+}
+
+.event-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .event-mark-ok {
+    color: wheat;
+    // background-color: green;
+    font-size: 20px;
+  }
+
+  .event-mark-no {
+    color: red;
+    // background-color: red;
+    font-size: 20px;
+  }
+
+  .event-mark-sub {
+    display: flex;
+  }
+}

@@ -1,0 +1,25 @@
+
+.patient-table{
+  width: 98%;
+  border-bottom: 1px solid white;  
+  margin: 20px 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  
+  thead {
+    color: blue;   
+    font-size: large;
+    margin: 2px 1px;
+    
+    th {
+
+      border-bottom: 2px solid black;
+    }
+
+  }
+
+  tbody {
+    color: purple;
+  }
+}
